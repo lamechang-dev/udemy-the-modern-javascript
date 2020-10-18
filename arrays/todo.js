@@ -15,3 +15,11 @@ const todos = [
 ];
 
 console.log(`Last Todo: ${todos[todos.length - 1]}`);
+
+todos.push('my new note');
+
+console.log(todos);
+
+lastItem = todos.pop();
+console.log(lastItem);
+console.log(todos);
