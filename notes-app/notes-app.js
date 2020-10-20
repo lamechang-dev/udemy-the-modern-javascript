@@ -1,0 +1,1 @@
+console.log("this is from the other javascript file!!");
