@@ -24,3 +24,5 @@ let deleteTodo = (todos, todoName) => {
 
 deleteTodo(todos, 'trash garbage');
 console.log(todos);
+
+// test add 
