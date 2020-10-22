@@ -16,9 +16,6 @@ const notes = [
     }
 ];
 
-const newParagraph = document.createElement('p');
-newParagraph.textContent = 'This is a new element from JavaScript';
-
-// appendChild(): add the new thing as the last item inside of DOM Element
-// methid chain
-document.querySelector('body').appendChild(newParagraph);
+document.querySelector('button').addEventListener('click', () => {
+    console.log("Did this work?")
+})
