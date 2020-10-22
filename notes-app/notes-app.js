@@ -13,6 +13,11 @@ const notes = [
         title: 'my favorite sweets',
         body: 'sweet potato',
         page: 3
+    },
+    {
+        title: 'my favorite sweets',
+        body: 'sweet potato',
+        page: 4
     }
 ];
 
