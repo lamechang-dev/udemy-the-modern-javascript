@@ -16,6 +16,6 @@ const notes = [
     }
 ];
 
-document.querySelector('button').addEventListener('click', () => {
-    console.log("Did this work?")
+document.querySelector('button').addEventListener('click', (e) => {
+    console.log(e.target.textContent = "the button was clicked");
 })
