@@ -21,6 +21,9 @@ const notes = [
     }
 ];
 
-document.querySelector('button').addEventListener('click', (e) => {
-    console.log(e.target.textContent = "the button was clicked");
+// document.querySelector('button').addEventListener('click', (e) => {
+//     console.log(e.target.textContent = "the button was clicked");
+// })
+document.querySelector('button').addEventListener('click', () => {
+    console.log('add a new todo...')
 })
